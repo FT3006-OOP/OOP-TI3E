@@ -5,6 +5,7 @@
 <a href="#"><img src="https://img.shields.io/github/issues-pr/FT3006-OOP/OOP-TI3E?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/repo-size/FT3006-OOP/OOP-TI3E?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/commit-activity/w/FT3006-OOP/OOP-TI3E?style=flat-square"></a>
+<a href="#"><img src="https://travis-ci.com/FT3006-OOP/OOP-TI3E.svg?branch=master"></a>
 </p>
 
 #### Sabtu, 🕐 14:40 s.d 18:00
