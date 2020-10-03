@@ -1,3 +1,3 @@
 Nama : Syaeful Anwar
 Kelas : TIII-E
-NIm : A2.1900176
+Nim : A2.1900176
