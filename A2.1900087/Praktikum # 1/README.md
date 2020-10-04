@@ -1,3 +1,0 @@
-A2.1900087
-INTAN SRI MULYATI
-Teknik Informatika 3E
