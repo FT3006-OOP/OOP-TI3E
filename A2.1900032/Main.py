@@ -1,9 +1,9 @@
-class Hero: # template
+class Hero: #template
     pass
 
 
-hero1 = Hero() # object / instance (instansiate)
-hero2 = Hero() 
+hero1 = Hero() #Object / instance
+hero2 = Hero()
 hero3 = Hero();
 
 hero1.name = "sniper"
@@ -13,7 +13,7 @@ hero2.name = "sven"
 hero2.health = 100
 
 hero3.name = "ucup"
-hero3.health = 1000
+hero3.health =100
 
 print(hero1)
 print(hero1.__dict__)
