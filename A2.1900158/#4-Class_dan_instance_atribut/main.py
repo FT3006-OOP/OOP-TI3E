@@ -7,7 +7,7 @@ class Hero: #template
         self.power = inputPower
         self.armor = inputArmor
         Hero.jumlah += 1
-        print("membuaat Hero Dengan Nama" + inputname)
+        print("membuaat Hero Dengan Nama " + inputname)
 
 
 hero1 = Hero('sniper', 100, 10, 4)
