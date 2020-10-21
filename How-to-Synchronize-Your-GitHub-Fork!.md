@@ -1,5 +1,4 @@
 ## How to Synchronize Your GitHub Fork
----
 
 <img src="https://cdn.nearsoft.com/uploads/2019/10/syncgithubfork.jpeg" width="600" height="300"/>
 
@@ -7,7 +6,7 @@ Saat kita melakukan kolaborasi dalam sebuah proyek Open Source, kita biasanya di
 
 Saat kita melakukan percabangan `repo` `(fork)`, kita tidak akan mendapatkan update dari `repo` asli. Hal ini menyebabkan apabila repo utama memiliki `update`, `fork` `repo` pada akun Github kita tidak akan otomatis mengikuti repo aslinya. Jadi untuk menghindari masalah saat kita mencoba untuk melakukan sebuah `perubahan / commit`, lebih baik kita menjaga agar `fork` repo tetap `up to date.`
 
-**Berikut cara membuat Fork Repositori kita agar selalu uptodate.**
+**Berikut cara membuat Fork Repositori kita agar selalu up to date.**
 
 1. Pertama, lakukan `fork` dan `clone` repositori terlebih dahulu.
 2. Kedua, masuk kedalam direktori repositori tersebut. 
