@@ -1,4 +1,4 @@
-class Hero: # Template
+class Hero: #template
     #class variabel
     jumlah = 0
 
@@ -9,12 +9,12 @@ class Hero: # Template
         self.power = inputPower
         self.armor = inputArmor
         Hero.jumlah += 1
-        print ("membuat Hero dengan nama " + inputName)
+        print("membuat Hero dengan nama " + inputName)
 
 
-hero1 = Hero("sniper",100, 10, 4)
+hero1 = Hero("Sniper", 100, 10, 4)
 print(Hero.jumlah)
-hero2 = Hero("mirana",100, 15, 1)
+hero2 = Hero("Mirana", 100, 15, 1)
 print(Hero.jumlah)
-hero3 = Hero("ucup",1000, 100, 0)
+hero3 = Hero("Ucup", 1000, 100, 0)
 print(Hero.jumlah)
