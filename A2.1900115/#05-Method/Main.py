@@ -2,9 +2,9 @@ class Hero:
     # class variabel
     jumlah_hero = 0
 
-    def __init__(self, inputName, inputHealth, inputPower, inputArmor):
+    def __init__(self, inputNama, inputHealth, inputPower, inputArmor):
         #instance variabel
-        self.nama = inputName
+        self.nama = inputNama
         self.health = inputHealth
         self.power = inputPower
         self.armor = inputArmor
@@ -23,10 +23,9 @@ class Hero:
         return self.health
 
 hero1 = Hero('sniper', 100, 10, 5)
-hero2 = Hero('mario bros ', 90, 5, 10)
+hero2 = Hero('mario bros', 90, 5, 10)
 
 hero1.siapa()
 hero1.healthUp(10)
 
 print(hero1.gethealth())
-
