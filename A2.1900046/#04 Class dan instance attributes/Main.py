@@ -1,7 +1,7 @@
 class Hero: # template
     #class Variabel
     jumlah = 0
-
+  
     def __init__(self, inputName, inputHealth, inputPower, inputArmor):
         # instance Variable
         self.name = inputName
