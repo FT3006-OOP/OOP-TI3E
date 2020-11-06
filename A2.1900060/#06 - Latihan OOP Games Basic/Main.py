@@ -31,4 +31,3 @@ class Hero:
  rikimaru.serang(sniper)
  print("\n")
  rikimaru.serang(sniper)
-        
