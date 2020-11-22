@@ -20,10 +20,10 @@ class Hero:
         self.__attPower = nilaibaru
 
 # awal dari game
-earthshaker = Hero("earthshaker",50,5)
+earthshaker = Hero("earthshaker",5010,54)
 
 #game berjalan
 print(earthshaker.getName())
 print(earthshaker.getHealth())
-earthshaker.diserang(5)
+earthshaker.diserang(63)
 print(earthshaker.getHealth())
