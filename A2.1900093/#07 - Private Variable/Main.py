@@ -1,7 +1,7 @@
 class Hero:
 
     # class variabel
-    jumlah = 0 
+    jumlah = 0
     __privateJumlah = 0
 
     def __init__(self,name,health):
@@ -10,9 +10,8 @@ class Hero:
 
         # variabel instance private
         self.__private = "private"
-        # variabel instance protected
+        # vairabel instance protected
         self._protected = "protected"
-
 
 
 lina = Hero("lina",100)
