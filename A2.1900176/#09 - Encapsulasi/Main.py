@@ -1,32 +1,24 @@
-class Hero:
+class hero :
+    def __init__(self,name,health,attackpower):
+        self.__name= name
+        self.__health = health
+        self.__attackpower = attackpower
+    # getter
+    def getName(self):
+        return self.__name
 
-    #private class variabel
-    __jumlah = 0
+    def getHealth(self):
+        return self.__health
 
-    def __init__(self,name):
-        self.__name = name
-        Hero.__jumlah += 1
+    def diserang (self,serangPower):
+        self.__health -= serangPower
 
-    #method ini hanta berlaku untuk objek
-    def getJumlah(self):
-        return Hero.__jumlah
-    
-    # method ini tidak berlaku untuk objek tapi berlaku untuk class
-    def getJumlah1(self):
-        return Hero.__jumlah
+# awal dari game
+earthshaker = hero("eartShaker", 50, 5)
 
-    # method static (decorator) nempel ke objek dan class
-    @staticmethod
-    def getJumlah2():
-        return Hero.__jumlah
-    
-    @classmethod
-    def getJumlah3(cls):
-        return cls.__jumlah
 
-sniper = Hero('sniper')
-print(Hero.getJumlah2())
-rikimaru = Hero('rikimaru')
-print(sniper.getJumlah2())
-drowranger = Hero('drowranger')
-print(Hero.getJumlah3())
+#game berjalan
+print (earthshaker.getName())
+print (earthshaker.getHealth())
+earthshaker.diserang(5)
+print (earthshaker.getHealth()) 
