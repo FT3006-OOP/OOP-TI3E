@@ -6,7 +6,7 @@ hero1 = Hero() # object / instance (instansiate)
 hero2 = Hero()
 hero3 = Hero()
 
-
+hero1.name = "jinx"
 hero1.health = 100
 
 hero2.name = "linx"
