@@ -5,7 +5,7 @@ class Hero:
 
     def showInfo(self):
         print("'showInfo di class Hero")
-        print("{} helath: {}".format(
+        print("{} health: {}".format(
             self.name, 
             self.health
             )
