@@ -8,7 +8,7 @@
    
     Jawaban :
 
-    ### Instance bisa diartikan sebagai wujud dari class. Class berisi definisi variabel dan fungsi yang menggambarkan sebuah objek. Contohnya bayangkan sebuah komputer, didalamnya terdapat VGA, Processor, RAM dan alat- alat lainnya. Dalam PBO,  adalah class, sedangkan VGA, Processor, RAM adalah instance.
+    ### Instance bisa diartikan sebagai wujud dari class. Class berisi definisi variabel dan fungsi yang menggambarkan sebuah objek. Contohnya bayangkan sebuah komputer, didalamnya terdapat VGA, Processor, RAM dan alat- alat lainnya. Dalam PBO, Komputer adalah class, sedangkan VGA, Processor, RAM adalah instance.
 
 3. ## Apa hubungan antara *class* dan *instance*?
    
