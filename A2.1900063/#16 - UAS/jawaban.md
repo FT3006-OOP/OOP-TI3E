@@ -2,7 +2,7 @@
 
 ## IDENTITAS MAHASISWA
 
-* Nama  : Fajar purnama
+* Nama  : FAJAR PURNAMA
 * Nim   : A2.1900063
 * Kelas : TI-3E
 
