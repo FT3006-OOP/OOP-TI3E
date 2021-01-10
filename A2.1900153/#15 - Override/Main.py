@@ -5,7 +5,7 @@ class Hero:
 
     def showInfo(self):
         print("'showInfo di class Hero")
-        print("{} helath: {}".format(
+        print("{} health: {}".format(
             self.name, 
             self.health
             )
@@ -16,7 +16,7 @@ class Hero_intelligent(Hero):
     def __init__(self,name):
         super().__init__(name,100)
 
-    # override
+    # override 
     def showInfo(self):
         print("showInfo di subclass Hero_intelligent")
         print("{} \n\tTipe: intelligent, \n\thealth: {}".format(
