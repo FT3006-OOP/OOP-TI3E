@@ -11,7 +11,7 @@ class Hero:
 class Hero_inteLigent(Hero):
     def __init__(self, name):
         super().__init__(name, 100)
-
+ 
     def showINfo(self):
         print ('{} \n\tTipe : intelegent, \n\t heath : {}'.format(
             self.name,
